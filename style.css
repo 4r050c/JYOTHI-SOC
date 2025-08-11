@@ -1,0 +1,82 @@
+body{font-family:Arial,sans-serif;background-color:#333;color:white;margin:0;padding:0}.container{padding:20px;width:90%;margin:auto}h1{text-align:center}.scan-btn,.submit-btn,.cors-btn{background-color:#3498db;border:none;color:white;padding:10px 20px;text-align:center;font-size:16px;cursor:pointer;margin-bottom:20px}.wd-btn{background-color:#3498db;border:none;color:white;padding:10px 20px;text-align:center;font-size:16px;cursor:pointer;margin-bottom:20px;user-select:none}.cors-btn{font-size:8px;position:absolute;top:10px;left:10px}.cors-btn:hover{background-color:#2980b9}.input-area{width:100%;padding:10px;background-color:#444;border:1px solid #555;color:white;font-size:16px;margin-bottom:10px}.output-area{margin-top:20px}.summary{padding:10px;margin-top:10px;border-radius:5px}.red{color:#e74c3c}.yellow{color:#f39c12}.green{color:#2ecc71}.collapsed-text{cursor:pointer}.collapsed-text:hover{color:#3498db}.hidden{display:none}.resize-textarea{resize:both;overflow:auto;min-width:300px;min-height:100px}.recent-domain{color:#f1c40f;font-weight:bold}.malicious { color: #e74c3c; font-weight: bold; }.safe { color: #2ecc71; font-weight: bold; }.not-found { color: gray; font-weight: bold; }
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Style for textarea */
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+/* Style for scan button */
+button#scanBtn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+				border: 1px solid #181818;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #181818;
+}
+
+/* Alternate row colors for readability */
+tr{
+    background-color: #181818;
+}
+
+/* Status text color classes */
+.found {
+    color: rgb(199, 26, 4);
+}
+
+.not-found {
+    color: rgb(255, 204, 0);
+}
+
+.error {
+    color: rgb(255, 166, 0);
+}
+
+/* Loading spinner styling */
+.spinner {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #333;
+    border-top: 2px solid #333;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    vertical-align: middle;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

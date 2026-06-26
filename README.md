@@ -59,7 +59,10 @@ LINK: https://4r050c.github.io/REP
 
 ## Screenshots
 
-Add screenshots here:
+<img width="1279" height="486" alt="image" src="https://github.com/user-attachments/assets/458c359b-8c54-4f51-a386-c18a49ed0733" />
+
+<img width="821" height="580" alt="image" src="https://github.com/user-attachments/assets/b969841a-e24d-4278-848b-001179b4906d" />
+
 
 ```text
 screenshots/
